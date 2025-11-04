@@ -26,7 +26,7 @@ export default function App() {
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <BrowserRouter basename="/ElectromartShop">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
